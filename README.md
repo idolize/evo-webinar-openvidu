@@ -1,4 +1,4 @@
-# Evo: openvidu-streaming
+# Evo: Webinar Streaming
 
 The web application that connects to a running OpenVidu streaming service and manages connections of various clients.
 
