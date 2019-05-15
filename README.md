@@ -19,10 +19,10 @@ Currently, this application is deployed *manually* using AWS EC2.
 
 Instructions:
 1. ssh into EC2 instance
-1. upload the files from this repo to `/opt/webapp`
+1. Upload the files from this repo to `/opt/webapp`
 1. `npm install`
-1. restart Nginx: `systemctl restart nginx`
-1. restart Supervisor: 1systemctl restart supervisor1
+1. Restart Nginx: `systemctl restart nginx`
+1. Restart Supervisor: `systemctl restart supervisor`
 
 [Additional documentation on deploying to AWS](https://openvidu.io/docs/deployment/deploying-app/)
 
@@ -43,4 +43,4 @@ This service can be run locally (assuming the openvidu service is open on EC2) b
 
 1. `npm install`
 1. `node server.js https://evo.idol.software:4443 evostreams`
-1. open web browser to https://localhost:5005
+1. Open web browser to https://localhost:5005
